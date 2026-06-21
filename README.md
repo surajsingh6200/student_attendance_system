@@ -47,11 +47,3 @@ Student-Attendance-System/
 * Attendance Percentage Calculation
 * Export Attendance Reports
 * Backend Integration with Database
-
-## 👨‍💻 Author
-
-Suraj Kumar Singh
-
-## 🔗 GitHub Repository
-
-Add your repository link here after uploading the project.
