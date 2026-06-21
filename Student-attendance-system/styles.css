@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: #05070a url("wp5809590.png") center / cover fixed no-repeat;
+  color: #2e2e2e;
+  padding: 26px 42px;
+}
+
+.container {
+  max-width: 1168px;
+  margin: auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.16);
+  padding: 26px;
+}
+
+.title {
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 26px;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: 1fr 130px 164px;
+  gap: 10px;
+  margin-bottom: 22px;
+}
+
+.student-input {
+  height: 47px;
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+  padding: 0 13px;
+  font-size: 16px;
+}
+
+.btn {
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-add { background: #28a745; }
+.btn-save { background: #007bff; }
+
+.btn-delete {
+  background: #dc3545;
+  min-width: 89px;
+  height: 43px;
+}
+
+.btn-toggle {
+  background: #eeeeee;
+  color: #111;
+  min-width: 134px;
+  height: 43px;
+}
+
+.attendance-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.attendance-table th,
+.attendance-table td {
+  border: 1px solid #dedede;
+  text-align: center;
+  padding: 13px;
+  height: 70px;
+  font-size: 17px;
+}
+
+.attendance-table th {
+  background: #2f2f2f;
+  color: #fff;
+}
+
+.status {
+  font-weight: bold;
+}
+
+.present { color: green; }
+.absent { color: red; }
+
+.summary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 26px;
+  background: #f7f7f7;
+  padding: 15px 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.summary-item:nth-child(2) { text-align: center; }
+.summary-item:nth-child(3) { text-align: right; }
